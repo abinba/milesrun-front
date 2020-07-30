@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/run.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <title>MilesRun</title>
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <div class="left_navi">
+                <a href="#" class="logo">MilesRun</a>
+                <a href="#" class="logo_bar">Categories</a>
+                <a href="#" class="logo_bar">tests</a>
+                <a href="#" class="logo_bar red_borders">create a mile</a>
+            </div>
+            <div class="right_navi">
+                <div class="search_box">
+                    <table class="search_elements">
+                        <tr>
+                            <td>
+                                <a href="#"><i class="material-icons">search</i></a>
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Seach for anything" class="search" name="" id="">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="wrapper">
+                    <div class="navbar">
+                        <div class="right">
+                            <ul>
+                              <li>
+                                <a href="#">
+                                  <img src="https://i.imgur.com/kDLvuKf.png" alt="Admin" width="40"><i class="fas fa-angle-down"></i>
+                                </a>
+                                 
+                                <div class="dropdown">
+                                    <ul>
+                                      <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                                      <li><a href="#"><i class="fas fa-sliders-h"></i> Settings</a></li>
+                                      <li><a href="#"><i class="fas fa-sign-out-alt"></i> Signout</a></li>
+                                  </ul>
+                                </div>
+                                
+                              </li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="recent_categ">
+            <div class="left_navi">
+                <a href="#" class="menu_list">Development</a>
+                <a href="#" class="menu_list">Business</a>
+                <a href="#" class="menu_list">Programming</a>
+                <a href="#" class="menu_list">Languages</a>
+                <a href="#" class="menu_list">Design</a>
+                <a href="#" class="menu_list">Science</a>
+                <a href="#" class="menu_list">Statistics</a>
+                <a href="#" class="menu_list">Analysis</a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="part_name">
+                <h2>Recommended</h2>
+                <h2>1 / 5</h2>
+            </div>
+            
+            <!-- <div id="slider">
+                <figure>
+                    <a href="" class="slider_banner">
+                        <div class="slider_desc">
+                            <p>Making abstractions <br> in Adobe XD</p>
+                            <h2>Making abstractions <br> in Adobe XD</h2>
+                        </div>
+                        <img src="img/Rect1.png">
+                    </a>
+                    <a href="" class="slider_banner">
+                        <div class="slider_desc">
+                            <p>Making abstractions <br> in Adobe XD</p>
+                            <h2>Making abstractions <br> in Adobe XD</h2>
+                        </div>
+                        <img src="img/Rect2.png">
+                    </a>
+                    <a href="" class="slider_banner">
+                        <div class="slider_desc">
+                            <p>Making abstractions <br> in Adobe XD</p>
+                            <h2>Making abstractions <br> in Adobe XD</h2>
+                        </div>
+                        <img src="img/Rect3.png">
+                    </a>
+                    <a href="" class="slider_banner">
+                        <div class="slider_desc">
+                            <p>Making abstractions <br> in Adobe XD</p>
+                            <h2>Making abstractions <br> in Adobe XD</h2>
+                        </div>
+                        <img src="img/Rect3.png">
+                    </a>
+                    <a href="" class="slider_banner">
+                        <div class="slider_desc">
+                            <p>Making abstractions <br> in Adobe XD</p>
+                            <h2>Making abstractions <br> in Adobe XD</h2>
+                        </div>
+                        <img src="img/Rect3.png">
+                    </a>
+                </figure>
+            </div> -->
+
+            <div id="slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <input type="radio" name="slider" id="slide4">
+                <div id="slides">
+                   <div id="overflow">
+                      <div class="inner">
+                         <div class="slide slide_1">
+                            <div class="slide-content">
+                               <h2>Making abstractions <br> in Adobe XD</h2>
+                               <div class="run_but">
+                                <a href="#" class="logo_bar red_borders">RUN</a>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="slide slide_2">
+                            <div class="slide-content">
+                                <h2>Making abstractions <br> in Adobe XD</h2>
+                                <div class="run_but">
+                                 <a href="#" class="logo_bar red_borders">RUN</a>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="slide slide_3">
+                            <div class="slide-content">
+                                <h2>Making abstractions <br> in Adobe XD</h2>
+                                <div class="run_but">
+                                 <a href="#" class="logo_bar red_borders">RUN</a>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="slide slide_4">
+                            <div class="slide-content">
+                                <h2>Making abstractions <br> in Adobe XD</h2>
+                                <div class="run_but">
+                                 <a href="#" class="logo_bar red_borders">RUN</a>
+                                </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div id="controls">
+                   <label for="slide1"></label>
+                   <label for="slide2"></label>
+                   <label for="slide3"></label>
+                   <label for="slide4"></label>
+                </div>
+                <div id="bullets">
+                   <label for="slide1"></label>
+                   <label for="slide2"></label>
+                   <label for="slide3"></label>
+                   <label for="slide4"></label>
+                </div>
+             </div>
+            
+             <div class="part_name">
+                <h2>Recently run</h2>
+                <a href=""><img class="menu_inverse" src="https://img.icons8.com/ios-filled/28/000000/squared-menu.png"/></a>
+            </div>
+            <div class="topic">
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic1.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>Making Illustrations</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png"/></a>
+                    </div>
+                    <p>Graphic Design <br> <span>Slava Yugay | 5 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic2.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>Java Classes</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png"/></a>
+                    </div>
+                    <p>Programming <br> <span>Saydillo | 20 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic3.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+
+                    <div class="topic_names">
+                        <h4>Linear Regression</h4>
+                        <a href=""><img src="https://img.icons8.com/ios/50/000000/bookmark-ribbon.png"/></a>
+                    </div>
+                    <p>Programming <br> <span>Saydillo | 20 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic4.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>How to Brainstorm?</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png"/></a>
+                    </div>
+                    <p>Brain Skills <br> <span>Dlyaver | 35 miles</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="part_name">
+                <h2>Popular</h2>
+                <a href=""><img class="menu_inverse" src="https://img.icons8.com/ios-filled/28/000000/squared-menu.png"/></a>
+            </div>
+            <div class="topic">
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic5.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>How cells are structured?</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png"/></a>
+                    </div>
+                    <p>Science - Biology <br> <span>Sarvar Suyarov | 64 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic6.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>Verbs in Russian Language</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png"/></a>
+                    </div>
+                    <p>Languages<br> <span>Lozesaint | 54 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic7.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+
+                    <div class="topic_names">
+                        <h4>Adaptive HTML</h4>
+                        <a href=""><img src="https://img.icons8.com/ios/50/000000/bookmark-ribbon.png"/></a>
+                    </div>
+                    <p>Web Development<br> <span>Sarvar Suyarov | 64 miles</span>
+                    </p>
+                </div>
+                <div class="topic_cards">
+                    <div class="topic_img">
+                        <img src="img/topic8.png" alt="">
+                        <div class="run_but">
+                            <a href="#" class="logo_bar red_borders">RUN</a>
+                        </div>
+                    </div>
+                    <div class="topic_names">
+                        <h4>PostgreSQL Connection</h4>
+                        <a href=""><img src="https://img.icons8.com/material/24/000000/bookmark-outline.png"/></a>
+                    </div>
+                    <p>Databases<br> <span>Dlyaver | 35 miles</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="create_mile_banner">
+                <div class="proceed_mile">
+                    <h2>Create your own Mile!</h2>
+                    <p>Improve knowledge of others <br> and get profit</p>
+                    <div class="search_box">
+                        <table class="search_elements">
+                            <tr>
+                                <td>
+                                    <input type="text" placeholder="Name of the Mile" class="search" name="" id="">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <a href="#" class="logo_bar red_borders">Proceed</a>
+                </div>
+                <img src="img/wing1.png" alt="">
+            </div>
+          </div>
+    </section>
+    <footer class="foot">
+        <div class="footer_panel">
+            <a href="#" class="logo_bar">© 2020 Milesrun</a>
+            <a href="#" class="logo_bar menu_list">About</a>
+            <a href="#" class="logo_bar menu_list">Blog</a>
+            <a href="#" class="logo_bar menu_list">Privicy</a>
+            <a href="#" class="logo_bar menu_list">Terms</a>
+            <a href="#" class="logo_bar menu_list">Contact</a>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        document.querySelector(".right ul li").addEventListener("click", function(){
+        this.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

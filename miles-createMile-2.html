@@ -12,6 +12,7 @@
 
 
     <link rel="stylesheet" href="textWidget/css/main.css">
+    <link rel="stylesheet" href="css/create_mile.css">
     <link rel="stylesheet" href="textWidget/css/info.css">
     <link rel="stylesheet" href="textWidget/css/widgContent.css">
     <link rel="stylesheet" href="textWidget/css/widgEditor.css">
@@ -22,44 +23,42 @@
 <body>
     <section class="banner">
         <header>
-            <div class="left_navi">
-                <a href="miles.html" class="logo">MilesRun</a>
-                <a href="#" class="logo_bar">categories</a>
-                <a href="#" class="logo_bar">tests</a>
-                <a href="#" class="logo_bar red_borders">create a mile</a>
-            </div>
-            <div class="right_navi">
-                <div class="search_box">
-                    <table class="search_elements">
-                        <tr>
-                            <td>
-                                <a href="#"><i class="material-icons">search</i></a>
-                            </td>
-                            <td>
-                                <input type="text" placeholder="Seach for anything" class="search" name="" id="search_input">
-                            </td>
-                        </tr>
-                    </table>
+            <a href="miles.html" class="logo">MilesRun</a>
+            <div class="header__navi">
+                <div class="left_navi">
+                    <a href="#" class="logo_bar">categories</a>
+                    <a href="#" class="logo_bar">tests</a>
+                    <a href="miles-createMile-1.html" class="logo_bar red_borders">create a mile</a>
                 </div>
-                <div class="wrapper">
-                    <div class="navbar">
-                        <div class="right">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <img src="https://i.imgur.com/kDLvuKf.png" alt="Admin" width="40"><i class="fas fa-angle-down"></i>
-                                    </a>
+                <div class="right_navi">
+                    <div class="search_box">
+                        <table class="search_elements">
+                            <tr>
+                                <td>
+                                    <a href="#"><i class="material-icons">search</i></a>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="Seach for anything" class="search" name="" id="search_input">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="user">
+                        <div class="user__nav">
+                            <a id="user__cllck" onclick="myFunction()">
+                                <div class="user__photo">
+                                    <img src="./img/topic3.png" alt="Admin">
+                                </div>
+                                <i class="fas fa-angle-down"></i>
+                            </a>
 
-                                    <div class="dropdown">
-                                        <ul>
-                                            <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
-                                            <li><a href="#"><i class="fas fa-sliders-h"></i> Settings</a></li>
-                                            <li><a href="#"><i class="fas fa-sign-out-alt"></i> Signout</a></li>
-                                        </ul>
-                                    </div>
-
-                                </li>
-                            </ul>
+                            <div id="myDropdown" class="dropdown">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                                    <li><a href="#"><i class="fas fa-sliders-h"></i> Settings</a></li>
+                                    <li><a href="miles-login.html"><i class="fas fa-sign-out-alt"></i> Signout</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -127,7 +126,7 @@
             </div>
         </div>
     </section>
-    <footer class=" foot ">
+    <footer class="foot">
         <div class="footer_panel ">
             <a href="# " class="logo_bar ">© 2020 Milesrun</a>
             <a href="# " class="logo_bar menu_list ">About</a>
@@ -140,9 +139,9 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
 <script type="text/javascript ">
-    document.querySelector(".right ul li ").addEventListener("click ", function() {
-        this.classList.toggle("active ");
-    });
+    function myFunction() {
+        document.getElementById('myDropdown').classList.toggle('show');
+    };
 
     $(document).ready(function() {
         $('.mile_run').hide();

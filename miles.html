@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="./js/script.js"></script>
     <title>MilesRun</title>
 </head>
 
@@ -60,7 +61,7 @@
             </div>
         </header>
         <header class="recent_categ">
-            <div class="left_navi">
+            <div class="left_navi_2">
                 <a href="#" class="menu_list">development</a>
                 <a href="#" class="menu_list">business</a>
                 <a href="#" class="menu_list">programming</a>
@@ -292,26 +293,6 @@
     </footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript">
-    function myFunction() {
-        document.getElementById('myDropdown').classList.toggle('show');
-    };
-
-    document.querySelector('#burger').onclick = function() {
-        document.querySelector('.burger__but').classList.toggle('burger__active');
-    };
-
-    $(document).ready(function() {
-        $('.mile_run').hide();
-    });
-
-    $('.topic_img').mouseover(function() {
-        $(this).children('.mile_run').show();
-    });
-
-    $('.topic_img').mouseout(function() {
-        $(this).children('.mile_run').hide();
-    });
-</script>
+<script src="./js/script.js"></script>
 
 </html>
